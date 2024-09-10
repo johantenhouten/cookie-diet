@@ -18,6 +18,7 @@ for (let i=0; i<c.length;i++){
 };
 alert("Unchecked " + c.length + " checkboxes") ;
 ```
+
 The code selects all checkboxes and loops through each checkbox and sets the value of checked to false and remove the attribute checked. I have seen both being used. I either is not applicable the code does nothing. 
 
 
@@ -26,15 +27,13 @@ Once confronted with the cookie popup I can right click (I use Firefox) and sele
 ## Lazy engineer
 I'm actually too lazy to do the Right click - Inspect copy / paste thing. There is a trick that works (at least in Firefox version 130.0 on windows 11).
 
-Create a new bookmark, give it a nice name "cookie monster"
+Create a new bookmark in your bookmarks toolbar, give it a nice name "cookie monster"
 
 For the url insert the code below. It is the same code as above 
 
 '''
 javascript:c=document.querySelectorAll('input[type=checkbox]');for(let i=0;i<c.length;i++){c[i].checked=false;c[i].removeAttribute("checked");};alert("Unchecked " +c.length+ " checkboxes");
 '''
-Now add the bookmark to your bookmarks toolbar. When the popup comes - just click the "Cookie Monster" link.
-
 
 
 ## Tested
