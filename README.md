@@ -4,7 +4,7 @@ a small java script to uncheck all cookies and instrctions how to add this to yo
 Living en surfing in the EU, when I visit a website for the first time I am presented with a question regarding cookies. Some websites have the option "only essentail", "reject non essential". I like these choices.
 Other websites - and this is very common - have the option for you to accept or customise your choices. The number of checkboxes your have to click often exceeds thousand. Manually clicking each choice is almost impossible.
 
-![Screenshot 2024-09-10 113306](https://github.com/user-attachments/assets/77952cfc-6f22-4235-85c3-9ba5e5de386a | width=100)
+![Screenshot 2024-09-10 113306](https://github.com/user-attachments/assets/77952cfc-6f22-4235-85c3-9ba5e5de386a =250x)
 
 
 ## Javascript to the rescue
