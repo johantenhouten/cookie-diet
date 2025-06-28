@@ -29,11 +29,8 @@ I'm actually too lazy to do the Right click - Inspect copy / paste thing. There 
 
 Create a new bookmark in your bookmarks toolbar, give it a nice name "cookie monster"
 
-For the url insert the code below. It is the same code as above 
+For the url insert the code above.
 
-'''
-javascript:c=document.querySelectorAll('input[type=checkbox]');for(let i=0;i<c.length;i++){c[i].checked=false;c[i].removeAttribute("checked");};alert("Unchecked " +c.length+ " checkboxes");
-'''
 
 
 ## Tested
